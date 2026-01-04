@@ -1,0 +1,9 @@
+{
+  "features": {
+    "GPT-5.1-Codex-Max": {
+      "enabled": true,
+      "scope": "all-clients",
+      "enabled_at": "2026-01-04"
+    }
+  }
+}
