@@ -1,9 +1,7 @@
 {
-  "features": {
-    "GPT-5.1-Codex-Max": {
-      "enabled": true,
-      "scope": "all-clients",
-      "enabled_at": "2026-01-04"
-    }
+  "gpt-5.1-codex-max": {
+    "enabled": true,
+    "rollout": "all_clients",
+    "description": "Enable GPT-5.1-Codex-Max for all clients"
   }
 }

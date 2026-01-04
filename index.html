@@ -4,60 +4,120 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Machine Learning for Data Science (MLDS 2026)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <h1>Machine Learning for Data Science</h1>
-        <p class="subtitle">MLDS 2026 — Course Website</p>
+      <div class="container header-content">
+        <div style="display: flex; align-items: center;">
+          <a href="index.html" class="logo">MLDS 2026</a>
+          <span class="subtitle">Machine Learning for Data Science</span>
+        </div>
+        <nav class="navbar">
+          <a href="index.html" class="nav-link active">Overview</a>
+          <a href="evaluation.html" class="nav-link">Evaluation</a>
+          <a href="tutorials.html" class="nav-link">TA Tutorials</a>
+        </nav>
       </div>
     </header>
 
-    <nav class="navbar">
-      <div class="container">
-        <a href="index.html" class="active">Overview</a>
-        <a href="evaluation.html">Evaluation</a>
-        <a href="tutorials.html">TA Tutorials</a>
-      </div>
-    </nav>
-
     <main class="container">
-      <section>
-        <h2>Related to the course…</h2>
-        <ul>
-          <li>
-            <strong>Webpage:</strong>
-            <a href="https://mlds2025.github.io/MLDS/" target="_blank" rel="noopener">https://mlds2025.github.io/MLDS/</a>
-          </li>
-          <li>
-            <strong>Teams code:</strong> <code>t11c3j7</code>
-          </li>
-          <li>
-            <strong>Pre‑requisite:</strong> Basic knowledge in linear algebra, probability and a good proficiency in programming (Python) or a consent from the instructor.
-          </li>
-          <li>
-            <strong>Seats:</strong> Limited to 80 students — FCFS basis; please ensure that you fulfil the prerequisites.
-          </li>
-        </ul>
-        <div class="note">Mathematically and conceptually intense course, with coding modules — rewarding!</div>
+      <section class="hero">
+        <h1>Machine Learning<br>for Data Science</h1>
+        <p>A mathematically and conceptually intense course with rewarding coding modules.</p>
+        <div style="display: flex; gap: 1rem; justify-content: center;">
+          <a href="evaluation.html" class="badge" style="font-size: 1rem; padding: 0.75rem 1.5rem; text-decoration: none;">View Evaluation Plan</a>
+          <a href="tutorials.html" class="badge warning" style="font-size: 1rem; padding: 0.75rem 1.5rem; text-decoration: none; color: var(--warning);">See TA Tutorials</a>
+        </div>
       </section>
 
-      <section>
-        <h2>Highlights of the course</h2>
-        <ol>
-          <li>Theoretical and practical concepts of ML in parallel</li>
-          <li>Slides + notes + discussion of exam key</li>
-          <li>Project‑based assignments for easier understanding and application of techniques</li>
-          <li>Open days for clarifications</li>
-          <li>Strong foundation of ML for other advanced courses</li>
-        </ol>
+      <!-- Aims and Objectives -->
+      <section style="margin-bottom: 3rem; animation: fadeIn 1s ease-out;">
+        <h2 style="text-align: center; margin-bottom: 1.5rem; color: var(--accent);">Aims and Objectives</h2>
+        <div style="background: rgba(30, 41, 59, 0.5); border: 1px solid var(--border); border-radius: 1rem; padding: 2rem;">
+          <ol style="display: flex; flex-direction: column; gap: 1rem;">
+            <li>To understand the machine learning concepts and choose appropriate techniques/methods for various tasks.</li>
+            <li>To be able to build a data analytics pipeline suited for various real-world applications with varying data dimensions e.g., 1D signal processing (e.g., audio/speech/sensory), 2D/3D signal processing (images, business/commercial survey data analysis, scan volumes etc).</li>
+            <li>Evaluate the performance of the method with respect to a gold standard target and analyze the competency of the method.</li>
+            <li>Determine the significance in the improvement/change in the performance of the method given the population/dataset size in the real-world scenarios.</li>
+          </ol>
+        </div>
       </section>
 
-      <section class="cta">
-        <a class="button" href="evaluation.html">View Evaluation Plan</a>
-        <a class="button secondary" href="tutorials.html">See TA Tutorials</a>
+      <!-- The Team -->
+      <section style="margin-bottom: 3rem; animation: fadeIn 1.2s ease-out;">
+        <h2 style="text-align: center; margin-bottom: 1.5rem; color: var(--accent);">The Team</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
+          
+          <!-- Instructor -->
+          <div style="flex: 1; min-width: 300px; background: var(--panel); border: 1px solid var(--accent); border-radius: 1rem; padding: 1.5rem; text-align: center;">
+            <h3 style="color: var(--accent); margin-top: 0;">Instructor</h3>
+            <p style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">Vaanathi Sundaresan</p>
+            <p style="color: var(--muted); margin: 0;">CDS</p>
+            <a href="mailto:vaanathi@iisc.ac.in" style="display: block; margin-top: 0.5rem;">vaanathi@iisc.ac.in</a>
+          </div>
+
+          <!-- TAs -->
+          <div style="flex: 2; min-width: 300px; background: var(--panel); border: 1px solid var(--border); border-radius: 1rem; padding: 1.5rem;">
+            <h3 style="color: var(--accent); margin-top: 0; text-align: center;">Teaching Assistants</h3>
+            <ul style="list-style: none; padding: 0; display: grid; gap: 1rem;">
+              <li style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem;">
+                <div>
+                  <strong>Sandeep Kumar</strong>, <span style="font-size: 0.9em; color: var(--muted);">M.Tech, CDS</span>
+                </div>
+                <a href="mailto:sandeepk1@iisc.ac.in">sandeepk1@iisc.ac.in</a>
+              </li>
+              <li style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem;">
+                <div>
+                  <strong>Ghanshyam Dhamat</strong>, <span style="font-size: 0.9em; color: var(--muted);">M.Tech, CDS</span>
+                </div>
+                <a href="mailto:ghanshyamd@iisc.ac.in">ghanshyamd@iisc.ac.in</a>
+              </li>
+              <li style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                  <strong>Tarun Kumar Garg</strong>, <span style="font-size: 0.9em; color: var(--muted);">Ph.D, IMI</span>
+                </div>
+                <a href="mailto:tarungarg@iisc.ac.in">tarungarg@iisc.ac.in</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
+
+      <div class="grid">
+        <section class="card">
+          <h2>Course Details</h2>
+          <ul>
+            <!-- <li>
+              <strong>Webpage:</strong>
+              <a href="https://mlds2026.github.io/MLDS/" target="_blank" rel="noopener">mlds2026.github.io/MLDS</a>
+            </li> -->
+            <li>
+              <strong>Teams code:</strong> <code>t11c3j7</code>
+            </li>
+            <li>
+              <strong>Seats:</strong> Limited to 80 students (FCFS)
+            </li>
+          </ul>
+          <div style="margin-top: 1rem; padding: 1rem; background: rgba(56, 189, 248, 0.1); border-radius: 0.5rem; font-size: 0.9rem;">
+            <strong>Prerequisite:</strong> Basic knowledge in linear algebra, probability and a good proficiency in programming (Python) or instructor consent.
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Highlights</h2>
+          <ol>
+            <li>Theoretical and practical concepts of ML in parallel</li>
+            <li>Slides + notes + discussion of exam key</li>
+            <li>Project‑based assignments for easier understanding</li>
+            <li>Open days for clarifications</li>
+            <li>Strong foundation of ML for advanced courses</li>
+          </ol>
+        </section>
+      </div>
     </main>
 
     <footer class="site-footer">
@@ -66,4 +126,4 @@
       </div>
     </footer>
   </body>
-  </html>
+</html>

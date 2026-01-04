@@ -4,70 +4,81 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>MLDS 2026 — Evaluation Plan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <h1>Evaluation Plan</h1>
-        <p class="subtitle">Weights and tentative dates (based on shared slides)</p>
+      <div class="container header-content">
+        <div style="display: flex; align-items: center;">
+          <a href="index.html" class="logo">MLDS 2026</a>
+          <span class="subtitle">Evaluation Plan</span>
+        </div>
+        <nav class="navbar">
+          <a href="index.html" class="nav-link">Overview</a>
+          <a href="evaluation.html" class="nav-link active">Evaluation</a>
+          <a href="tutorials.html" class="nav-link">TA Tutorials</a>
+        </nav>
       </div>
     </header>
 
-    <nav class="navbar">
-      <div class="container">
-        <a href="index.html">Overview</a>
-        <a href="evaluation.html" class="active">Evaluation</a>
-        <a href="tutorials.html">TA Tutorials</a>
-      </div>
-    </nav>
-
     <main class="container">
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Component</th>
-              <th>Timeline (from slides)</th>
-              <th>Weight</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Quiz I</td>
-              <td>Feb 1st week, 2025</td>
-              <td>10</td>
-            </tr>
-            <tr>
-              <td>Project-/problem-based assignment I</td>
-              <td>Feb 2nd week, 2025 — Due: Feb 4th week, 2025</td>
-              <td>15</td>
-            </tr>
-            <tr>
-              <td>Mid-Term exam</td>
-              <td>March 1st week, 2025 — Exact date: TBD</td>
-              <td>25</td>
-            </tr>
-            <tr>
-              <td>Project-/problem-based assignment II</td>
-              <td>March 2nd week, 2025 — Due: March 4th week, 2025</td>
-              <td>15</td>
-            </tr>
-            <tr>
-              <td>Quiz II</td>
-              <td>March 4th week, 2025</td>
-              <td>10</td>
-            </tr>
-            <tr>
-              <td>End-term exam</td>
-              <td>April 21–30th, 2025 — Exact date: TBD</td>
-              <td>25</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <section class="hero" style="padding: 2rem 0;">
+        <h1>Evaluation Plan</h1>
+        <p>Weightage of components and tentative dates.</p>
+      </section>
 
-      <p class="warning">If any exam/report is found to be copied, it will automatically result in a zero grade for that exam/project and a warning note to your advisor. Any repeat instance will automatically lead to a failing grade in the course.</p>
+      <div class="card">
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Component</th>
+                <th>Timeline</th>
+                <th>Weight</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Quiz I</td>
+                <td>Feb 1st week, 2026 - <span class="text-accent">Exact date: TBD</span></td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>Project-/problem-based assignment I</td>
+                <td>Feb 2nd week, 2026 - <span class="text-accent">Due: Feb 4th week</span></td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>Mid-Term exam</td>
+                <td>March 1st week, 2026 - <span class="text-accent">Exact date: TBD</span></td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>Project-/problem-based assignment II</td>
+                <td>March 2nd week, 2026 - <span class="text-accent">Due: March 4th week</span></td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>Quiz II</td>
+                <td>March 4th week, 2026 - <span class="text-accent">Exact date: TBD</span></td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>End-term exam</td>
+                <td>April 21–30th, 2026 - <span class="text-accent">Exact date: TBD</span></td>
+                <td>25</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="margin-top: 1.5rem; padding: 1rem; border: 1px solid var(--danger); border-radius: 0.5rem; background: rgba(248, 113, 113, 0.1); color: var(--danger);">
+          <strong>Warning:</strong> If any exam/report is found to be copied, it will automatically result in a zero grade for that exam/project and a warning note to your advisor. Any repeat instance will automatically lead to a failing grade in the course.
+        </div>
+      </div>
     </main>
 
     <footer class="site-footer">
@@ -76,4 +87,4 @@
       </div>
     </footer>
   </body>
-  </html>
+</html>
