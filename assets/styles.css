@@ -4,6 +4,7 @@
   --text: #f1f5f9;
   --muted: #94a3b8;
   --accent: #38bdf8;
+  --heading-color: #c084fc;
   --accent-hover: #0ea5e9;
   --accent-2: #4ade80;
   --warning: #fbbf24;
@@ -149,12 +150,12 @@ main {
 .card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
-  border-color: var(--accent);
+  border-color: var(--heading-color);
 }
 
 .card h2 {
   margin-top: 0;
-  color: var(--accent);
+  color: var(--heading-color);
   font-size: 1.5rem;
 }
 
@@ -198,7 +199,7 @@ th {
   text-align: left;
   padding: 1rem;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--heading-color);
   border-bottom: 1px solid var(--border);
 }
 
