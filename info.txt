@@ -1,0 +1,110 @@
+Planned Class Schedule Timings: 2.00 - 3.30 pm (Tuesdays and Thursdays) 
+Place: CDS 102
+
+Topics:
+Foundations of machine learning: 
+Review of ML fundamentals: Un/semi/self-supervised learning, feature-based clustering, model fitting, linear regression, Discriminative models: logistic regression, discriminant analysis basics (2 weeks)
+Unsupervised/supervised ML techniques: Clustering techniques; Expectation maximization (EM) – K-Nearest Neighborhood classifiers, Gaussian Mixture Models; Representation learning; Supervised ML methods: kernel-based methods – support vector machines, ensemble methods: Classification and regression trees (CART), boosting/bootstrap aggregation. (4.5 weeks)
+Dimensionality reduction techniques: Principal component analysis (PCA), linear discriminant analysis (LDA). (1.5 week)
+Deep learning basics: Computational graphs, feedforward networks, loss functions, convolutional neural networks, backpropagation, optimization, feature saliency and visualization, convolutional neural networks, encoder-decoder models, graph-based models, generative models. (2 weeks)
+ML applications and statistical evaluation:
+Classification, segmentation and decision-making: Template matching, correlation – audio/speech signals; Regression and classification on publicly available sensory/survey data, image segmentation & classification – machine learning classifiers, feature-based and rule-based decision making, uncertainty estimation. (1 week)
+Evaluation of analysis tasks: Evaluation metrics, segmentation evaluation metrics (IoU, Dice, Jaccard indices, Hausdorff distance measures), classification evaluation metrics (confusion matrix, sensitivity, specificity, accuracy), registration metrics (MSE, MAE). (1 week)
+Testing statistical significance of ML applications: Review of hypothesis testing basic, permutation tests, effect of sample size, Descriptive statistics (mean, standard deviation, median, confidence interval, IQR), Unpaired and paired t-tests. (2 weeks)
+Practicals:
+Implementation of linear and logistic regressions, least square fitting, under/overfitting, regularization, LDA
+Scikit-learn: ML classifiers, comparison of unsupervised/supervised ML classifiers on data, feature ranking, feature reduction, Pytorch/tensorflow: deep learning parameter tuning, training regime, feature visualisation/saliency. 
+Python: Statistical tests (t-test).
+
+
+Course Schedule:
+Sess
+Date
+Topic
+1
+Jan 6/2025
+Course introduction - overview of Unsupervised/supervised learning, feature-based clustering, model fitting
+2
+Jan 8/2025
+Supervised learning framework, least mean square; Regression: linear regression
+3
+Jan 13/2025
+Holiday
+4
+Jan 20/2025
+Goodness of fit; Discriminative models: logistic regression 
+5
+Jan 22/2025
+Discriminant analysis basics: LDA
+6
+Jan 27/2025
+LDA overflow + Unsupervised/supervised ML techniques: Clustering techniques; EM algorithm
+7
+Jan 29/2025
+8
+Feb 3/2025
+EM algorithm overflow
+9
+Feb 5/2025
+Quiz - I 
+10
+Feb 10/2025
+Key discussion + SVM - I
+11
+Feb 12/2025
+SVM - II
+12
+Feb 17/2025
+Deep learning
+
+Basics: Computational graphs, DAGs, feedforward networks, loss functions, convolutional neural networks, backpropagation, optimization
+13
+Feb 19/2025
+14
+Feb 24/2025
+15
+Feb 26/2025
+Model design parameters
+16
+Mar 3/2025
+Mid-term Exam 
+17
+Mar 5/2025
+Key discussion + Dimensionality reduction: PCA
+18
+Mar 10/2025
+T-SNE + Classification/regression tasks, feature- based, rule-based decision making
+
+
+19
+March 12/2025
+Evaluation of classification, regression, registration and modelling tasks;
+Weakly/semi-/self-supervised learning.
+20
+March 17/2025
+Encoder-decoder models/generative models
+21
+March 19/2025
+Holiday
+22
+March 24/2025
+Adjust for SVM overflow
+23
+Mar 26/2025
+Quiz-II
+24
+Mar 31/2025
+Holiday
+25
+April 2/2025
+Key discussion + Advanced Topic I: Domain adaptation + FL
+26
+April 7/2025
+Advanced Topic II: Feature saliency
+27
+April 9/2025
+Testing statistical significance of ML applications
+28
+April 14/2025
+
+

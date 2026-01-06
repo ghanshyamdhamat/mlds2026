@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MLDS 2026 — Course Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <div style="display: flex; align-items: center;">
+          <a href="index.html" class="logo">MLDS 2026</a>
+          <span class="subtitle">Course Details</span>
+        </div>
+        <nav class="navbar">
+          <a href="index.html" class="nav-link">Overview</a>
+          <a href="details.html" class="nav-link active">Course Details</a>
+          <a href="evaluation.html" class="nav-link">Evaluation</a>
+          <a href="tutorials.html" class="nav-link">TA Tutorials</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero" style="padding: 2rem 0;">
+        <h1>Course Syllabus & Schedule</h1>
+        <p>Logistics, detailed topics, and session plan.</p>
+      </section>
+
+      <!-- Logistics -->
+      <section class="card">
+        <h2>Logistics</h2>
+        <ul style="list-style: none; padding: 0;">
+          <li style="display: flex; gap: 0.5rem; align-items: center;">
+            <strong style="color: var(--accent);">Timings:</strong> 
+            2.00 - 3.30 pm (Tuesdays and Thursdays)
+          </li>
+          <li style="display: flex; gap: 0.5rem; align-items: center;">
+            <strong style="color: var(--accent);">Place:</strong> 
+            CDS 102
+          </li>
+        </ul>
+      </section>
+
+      <!-- Topics -->
+      <section class="card" style="margin-top: 2rem;">
+        <h2>Topics</h2>
+        
+        <h3 style="color: var(--accent-2);">Foundations of machine learning</h3>
+        <ul>
+          <li><strong>Review of ML fundamentals:</strong> Un/semi/self-supervised learning, feature-based clustering, model fitting, linear regression, Discriminative models: logistic regression, discriminant analysis basics (2 weeks)</li>
+          <li><strong>Unsupervised/supervised ML techniques:</strong> Clustering techniques; Expectation maximization (EM) – K-Nearest Neighborhood classifiers, Gaussian Mixture Models; Representation learning; Supervised ML methods: kernel-based methods – support vector machines, ensemble methods: Classification and regression trees (CART), boosting/bootstrap aggregation. (4.5 weeks)</li>
+          <li><strong>Dimensionality reduction techniques:</strong> Principal component analysis (PCA), linear discriminant analysis (LDA). (1.5 week)</li>
+          <li><strong>Deep learning basics:</strong> Computational graphs, feedforward networks, loss functions, convolutional neural networks, backpropagation, optimization, feature saliency and visualization, convolutional neural networks, encoder-decoder models, graph-based models, generative models. (2 weeks)</li>
+        </ul>
+
+        <h3 style="color: var(--accent-2);">ML applications and statistical evaluation</h3>
+        <ul>
+          <li><strong>Classification, segmentation and decision-making:</strong> Template matching, correlation – audio/speech signals; Regression and classification on publicly available sensory/survey data, image segmentation & classification – machine learning classifiers, feature-based and rule-based decision making, uncertainty estimation. (1 week)</li>
+          <li><strong>Evaluation of analysis tasks:</strong> Evaluation metrics, segmentation evaluation metrics (IoU, Dice, Jaccard indices, Hausdorff distance measures), classification evaluation metrics (confusion matrix, sensitivity, specificity, accuracy), registration metrics (MSE, MAE). (1 week)</li>
+          <li><strong>Testing statistical significance of ML applications:</strong> Review of hypothesis testing basic, permutation tests, effect of sample size, Descriptive statistics (mean, standard deviation, median, confidence interval, IQR), Unpaired and paired t-tests. (2 weeks)</li>
+        </ul>
+
+        <h3 style="color: var(--accent-2);">Practicals</h3>
+        <ul>
+          <li><strong>Implementation:</strong> Linear and logistic regressions, least square fitting, under/overfitting, regularization, LDA.</li>
+          <li><strong>Scikit-learn:</strong> ML classifiers, comparison of unsupervised/supervised ML classifiers on data, feature ranking, feature reduction.</li>
+          <li><strong>PyTorch/TensorFlow:</strong> Deep learning parameter tuning, training regime, feature visualisation/saliency.</li>
+          <li><strong>Python:</strong> Statistical tests (t-test).</li>
+        </ul>
+      </section>
+
+      <!-- Course Schedule -->
+      <section class="card" style="margin-top: 2rem;">
+        <h2>Tentative Course Schedule</h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Sess</th>
+                <th>Date</th>
+                <th>Topic</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>Jan 6, 2026</td><td>Course introduction - overview of Unsupervised/supervised learning, feature-based clustering, model fitting</td></tr>
+              <tr><td>2</td><td>Jan 8, 2026</td><td>Supervised learning framework, least mean square; Regression: linear regression</td></tr>
+              <tr><td>3</td><td>Jan 13, 2026</td><td>Holiday</td></tr>
+              <tr><td>4</td><td>Jan 20, 2026</td><td>Goodness of fit; Discriminative models: logistic regression</td></tr>
+              <tr><td>5</td><td>Jan 22, 2026</td><td>Discriminant analysis basics: LDA</td></tr>
+              <tr><td>6</td><td>Jan 27, 2026</td><td>LDA overflow + Unsupervised/supervised ML techniques: Clustering techniques; EM algorithm</td></tr>
+              <tr><td>7</td><td>Jan 29, 2026</td><td></td></tr>
+              <tr><td>8</td><td>Feb 3, 2026</td><td>EM algorithm overflow</td></tr>
+              <tr><td>9</td><td>Feb 5, 2026</td><td>Quiz - I</td></tr>
+              <tr><td>10</td><td>Feb 10, 2026</td><td>Key discussion + SVM - I</td></tr>
+              <tr><td>11</td><td>Feb 12, 2026</td><td>SVM - II</td></tr>
+              <tr><td>12</td><td>Feb 17, 2026</td><td>Deep learning Basics: Computational graphs, DAGs, feedforward networks</td></tr>
+              <tr><td>13</td><td>Feb 19, 2026</td><td>DL: Loss functions, CNNs, backpropagation, optimization</td></tr>
+              <tr><td>14</td><td>Feb 24, 2026</td><td></td></tr>
+              <tr><td>15</td><td>Feb 26, 2026</td><td>Model design parameters</td></tr>
+              <tr><td>16</td><td>Mar 3, 2026</td><td>Mid-term Exam</td></tr>
+              <tr><td>17</td><td>Mar 5, 2026</td><td>Key discussion + Dimensionality reduction: PCA</td></tr>
+              <tr><td>18</td><td>Mar 10, 2026</td><td>T-SNE + Classification/regression tasks, feature- based, rule-based decision making</td></tr>
+              <tr><td>19</td><td>Mar 12, 2026</td><td>Evaluation of classification, regression, registration and modelling tasks; Weakly/semi-/self-supervised learning.</td></tr>
+              <tr><td>20</td><td>Mar 17, 2026</td><td>Encoder-decoder models/generative models</td></tr>
+              <tr><td>21</td><td>Mar 19, 2026</td><td>Holiday</td></tr>
+              <tr><td>22</td><td>Mar 24, 2026</td><td>Adjust for SVM overflow</td></tr>
+              <tr><td>23</td><td>Mar 26, 2026</td><td>Quiz-II</td></tr>
+              <tr><td>24</td><td>Mar 31, 2026</td><td>Holiday</td></tr>
+              <tr><td>25</td><td>Apr 2, 2026</td><td>Key discussion + Advanced Topic I: Domain adaptation + FL</td></tr>
+              <tr><td>26</td><td>Apr 7, 2026</td><td>Advanced Topic II: Feature saliency</td></tr>
+              <tr><td>27</td><td>Apr 9, 2026</td><td>Testing statistical significance of ML applications</td></tr>
+              <tr><td>28</td><td>Apr 14, 2026</td><td></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© 2026 MLDS Course</small>
+      </div>
+    </footer>
+  </body>
+</html>
